@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## School Calendar App
 
-## Getting Started
+An interactive calendar application built with Next.js and React. It supports week/month views, creating, editing, and deleting events, all‑day events, color labels, locations, and validations.
 
-First, run the development server:
+### Features
+- **Calendar views**: Week and Month
+- **Create/Edit/Delete events**
+- **All‑day events** and **time‑ranged events**
+- **Event details**: title, description, color, location
+- **Form validation** with Zod + React Hook Form
+- **Date utilities** with date‑fns
+- Type-Safe API: End-to-end type safety with tRPC
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Tech Stack
+- **Next.js 15** (App Router) and **React 19**
+- **TypeScript**
+- **Tailwind CSS** UI with utility components
+- **React Hook Form** + **Zod** for forms/validation
+- **date‑fns** for date calculations
+- **Shadcn UI**  - Accessible component primitives
+- **tRPC** - End-to-end typesafe APIs
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Project Structure
+- `src/app/Calender/` — Calendar UI, form schema, and page
+- `src/ui/` — Reusable UI components (inputs, dialogs, buttons, etc.)
+- `src/app/server/api/routers/` — Domain routers (e.g., `calender.ts`)
+- `src/app/api/trpc/[trpc]/route.ts` — tRPC request handler (App Router endpoint)
+- `src/app/server/api/` — Server-side tRPC setup and routers
+- `src/app/server/api/routers/` — Domain routers (e.g., `calender.ts`)
+  
+### Notes
+- If you open the new event dialog (Neues Ereignis), the form resets to defaults; clicking an existing event will populate the dialog with that event’s data.
+- the description and location of an event can be seen by hovering over an event
+- mock data is shown throughout the month of october,the mock data file is in the Calender folder.
+- When designing new UI components, I referenced Origin UI for inspiration and design patterns. Origin UI offers excellent examples of clean, functional components.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
