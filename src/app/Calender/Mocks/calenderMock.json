@@ -1,0 +1,122 @@
+[
+    {
+      "id": "evt-1001",
+      "title": "Jahresplanung",
+      "description": "Strategische Planung für das nächste Jahr",
+      "start": "2025-10-21T07:00:00.000Z",
+      "end": "2025-10-21T09:00:00.000Z",
+      "allDay": false,
+      "color": "blue",
+      "location": "Hauptkonferenzsaal"
+    },
+    {
+      "id": "evt-1002",
+      "title": "Projektabgabe",
+      "description": "Abgabe der endgültigen Unterlagen",
+      "start": "2025-10-21T10:00:00.000Z",
+      "end": "2025-10-21T12:30:00.000Z",
+      "allDay": false,
+      "color": "pink",
+      "location": "Büro"
+    },
+    {
+      "id": "evt-1003",
+      "title": "Vierteljährliche Budgetüberprüfung",
+      "description": "Strategische Planung für das nächste Jahr",
+      "start": "2025-10-21T13:00:00.000Z",
+      "end": "2025-10-21T15:00:00.000Z",
+      "allDay": false,
+      "color": "orange",
+      "location": "Hauptkonferenzsaal"
+    },
+    {
+      "id": "evt-1004",
+      "title": "Team-Meeting",
+      "description": "Wöchentliches Team-Update",
+      "start": "2025-10-21T08:00:00.000Z",
+      "end": "2025-10-21T09:00:00.000Z",
+      "allDay": false,
+      "color": "orange",
+      "location": "Konferenzraum A"
+    },
+    {
+      "id": "evt-1005",
+      "title": "Mittagessen mit Kunde",
+      "description": "Besprechung der neuen Projektanforderungen",
+      "start": "2025-10-22T12:00:00.000Z",
+      "end": "2025-10-22T13:15:00.000Z",
+      "allDay": false,
+      "color": "pink",
+      "location": "Café in der Innenstadt"
+    },
+    {
+      "id": "evt-1006",
+      "title": "Produkteinführung",
+      "description": "Neue Produkteinführung",
+      "start": "2025-10-23T15:00:00.000Z",
+      "end": "2025-10-23T17:00:00.000Z",
+      "allDay": false,
+      "color": "orange"
+    },
+    {
+      "id": "evt-1007",
+      "title": "Vertriebskonferenz",
+      "description": "Besprechung neuer Kunden",
+      "start": "2025-10-20T11:30:00.000Z",
+      "end": "2025-10-20T12:45:00.000Z",
+      "allDay": false,
+      "color": "blue",
+      "location": "Café in der Innenstadt"
+    },
+    {
+      "id": "evt-1008",
+      "title": "Team-Meeting",
+      "description": "Wöchentliches Team-Update",
+      "start": "2025-10-27T09:00:00.000Z",
+      "end": "2025-10-27T10:30:00.000Z",
+      "allDay": false,
+      "color": "pink",
+      "location": "Konferenzraum A"
+    },
+    {
+      "id": "evt-1009",
+      "title": "Verträge prüfen",
+      "description": "Wöchentliches Team-Update",
+      "start": "2025-10-14T14:00:00.000Z",
+      "end": "2025-10-14T15:30:00.000Z",
+      "allDay": false,
+      "color": "orange",
+      "location": "Konferenzraum A"
+    },
+    {
+      "id": "evt-1010",
+      "title": "Marketing-Strategie-Sitzung",
+      "description": "Vierteljährliche Marketingplanung",
+      "start": "2025-10-18T07:30:00.000Z",
+      "end": "2025-10-18T09:00:00.000Z",
+      "allDay": false,
+      "color": "pink",
+      "location": "Marketingabteilung"
+    },
+    {
+      "id": "evt-1011",
+      "title": "Jährliche Hauptversammlung",
+      "description": "Präsentation der Jahresergebnisse",
+      "start": "2025-10-17T15:00:00.000Z",
+      "end": "2025-10-17T17:00:00.000Z",
+      "allDay": false,
+      "color": "orange",
+      "location": "Großes Konferenzzentrum"
+    },
+    {
+      "id": "evt-1012",
+      "title": "Produktentwicklungs-Workshop",
+      "description": "Ideensammlung für neue Funktionen",
+      "start": "2025-10-24T13:00:00.000Z",
+      "end": "2025-10-24T16:00:00.000Z",
+      "allDay": false,
+      "color": "blue",
+      "location": "Innovationslabor"
+    }
+  ]
+  
